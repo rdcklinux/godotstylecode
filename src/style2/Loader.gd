@@ -2,7 +2,8 @@
 extends Node
 
 
-func _ready():
-	preload("res://src/style2/Container.gd")
+func _init():
+	preload("Container.gd")
+	pass
 
 
