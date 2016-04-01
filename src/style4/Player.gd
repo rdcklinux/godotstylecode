@@ -1,9 +1,6 @@
 
 extends Node
 
-func _init():
-	preload("Character.gd")
-
 
 class Player extends "res://src/style4/Character.gd".Character:
 	
