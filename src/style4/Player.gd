@@ -4,11 +4,8 @@ extends Node
 func _init():
 	preload("Character.gd")
 
-class Character extends "res://src/style4/Character.gd".Character:
-	func _init(n).(n):
-		pass
 
-class Player extends Character:
+class Player extends "res://src/style4/Character.gd".Character:
 	
 	func _init(n).(n):
 		pass
